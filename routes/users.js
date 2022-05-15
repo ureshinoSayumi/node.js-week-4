@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
-const errorHandle = require('../message/errorHandle')
-const sucessHandle = require('../message/sucessHandle')
+const errorHandle = require('../service/errorHandle')
+const sucessHandle = require('../service/sucessHandle')
 const User = require('../models/user')
 const userController = require('../controllers/user')
 
